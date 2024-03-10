@@ -1,0 +1,91 @@
+.TodoCards {
+	padding: 30px 40px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.CardMap {
+	background-color: #f0f0f0;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+
+	.editInputs {
+		width: 300px;
+		height: 450px;
+		background-color: white;
+		padding: 30px;
+		border-radius: 20px;
+		margin-top: 50px;
+		font-size: small;
+		color: black;
+		display: grid;
+		gap: 10px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+		input {
+			margin-top: 10px;
+			width: 250px;
+			height: 50px;
+			border-radius: 10px;
+			background-color: rgb(224, 223, 223);
+			border-radius: 10px;
+			border: none;
+			outline: none;
+			padding: 10px;
+			font-size: 20px;
+			font-weight: 500;
+			margin-bottom: 10px;
+		}
+		button {
+			width: 100%;
+			height: 40px;
+			border-radius: 10px;
+			border: none;
+			outline: none;
+			padding: 10px;
+			font-size: 20px;
+			font-weight: 500;
+			color: #646cff;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.todoCard {
+	width: 300px;
+	height: 450px;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	font-size: small;
+	color: black;
+	display: grid;
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+	button {
+		width: 100%;
+		height: 40px;
+		border-radius: 10px;
+		border: none;
+		outline: none;
+		padding: 10px;
+		font-size: 20px;
+		font-weight: 500;
+		color: #646cff;
+		margin-bottom: 20px;
+	}
+}
+
+img {
+	width: 100%;
+	height: 200px;
+	border-radius: 12px;
+}
